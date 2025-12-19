@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>TikTok Downloader</title>
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+
+<div class="container">
+<h1>TikTok Downloader</h1>
+<p>Download Audio dan Video TikTok tanpa watermark</p>
+
+
+<input type="text" id="tiktokUrl" placeholder="Paste link TikTok di sini" />
+<button id="downloadBtn">Download</button>
+
+
+<div id="result" class="hidden">
+<video id="video" controls></video>
+
+<a id="downloadLink" download>⬇ Download Video (MP4)</a>
+<a id="audioLink" download>🎵 Download Audio (MP3)</a>
+<div id="photoContainer" class="hidden"></div>
+</div>
+</div>
+
+
+<script src="js/script.js"></script>
+</body>
+</html>
